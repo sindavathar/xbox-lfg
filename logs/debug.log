@@ -1,0 +1,154 @@
+2015-11-28 20:56:18 Notice: Strict (2048): Declaration of App\Model\Table\ArticlesTable::validationDefault() should be compatible with Cake\ORM\Table::validationDefault(Cake\Validation\Validator $validator) in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Model\Table\ArticlesTable.php, line 9
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 151
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 99
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 346
+App\Controller\ArticlesController::index() - APP/Controller\ArticlesController.php, line 20
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 20:57:13 Notice: Strict (2048): Declaration of App\Model\Table\ArticlesTable::validationDefault() should be compatible with Cake\ORM\Table::validationDefault(Cake\Validation\Validator $validator) in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Model\Table\ArticlesTable.php, line 9
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 151
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 99
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 346
+App\Controller\ArticlesController::add() - APP/Controller\ArticlesController.php, line 31
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 20:58:04 Notice: Strict (2048): Declaration of App\Model\Table\ArticlesTable::validationDefault() should be compatible with Cake\ORM\Table::validationDefault(Cake\Validation\Validator $validator) in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Model\Table\ArticlesTable.php, line 9
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 151
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 99
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 346
+App\Controller\ArticlesController::edit() - APP/Controller\ArticlesController.php, line 45
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 21:40:53 Notice: Strict (2048): Declaration of App\Model\Table\ArticlesTable::validationDefault() should be compatible with Cake\ORM\Table::validationDefault(Cake\Validation\Validator $validator) in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Model\Table\ArticlesTable.php, line 9
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 151
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 99
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 346
+App\Controller\ArticlesController::index() - APP/Controller\ArticlesController.php, line 20
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 21:40:53 Notice: Notice (8): Undefined variable: categories in [C:\wamp\www\xboxlfg\src\Template\Articles\index.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Articles\index.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 21:44:28 Notice: Strict (2048): Declaration of App\Model\Table\ArticlesTable::validationDefault() should be compatible with Cake\ORM\Table::validationDefault(Cake\Validation\Validator $validator) in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Model\Table\ArticlesTable.php, line 9
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 151
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 99
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 346
+App\Controller\ArticlesController::index() - APP/Controller\ArticlesController.php, line 20
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 21:44:29 Notice: Strict (2048): Declaration of App\Model\Table\ArticlesTable::validationDefault() should be compatible with Cake\ORM\Table::validationDefault(Cake\Validation\Validator $validator) in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Model\Table\ArticlesTable.php, line 9
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 151
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 99
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 346
+App\Controller\ArticlesController::view() - APP/Controller\ArticlesController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-30 04:09:39 Notice: Notice (8): Undefined variable: article in [C:\wamp\www\xboxlfg\src\Template\Articles\index.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Articles\index.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

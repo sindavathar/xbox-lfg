@@ -1,0 +1,185 @@
+2015-11-28 08:14:00 Error: Fatal Error (1): Class 'IntlDateFormatter' not found in [C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Database\Type\DateTimeType.php, line 79]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 20:30:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:30:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles/
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:37:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles/
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:37:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles/
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:37:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles/index
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:40:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles/
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:40:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /xboxlfg/articles/
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-28 20:57:13 Warning: Warning (4096): Argument 1 passed to App\Model\Table\ArticlesTable::validationDefault() must be an instance of App\Model\Table\Validator, instance of Cake\Validation\Validator given, called in C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 106 and defined in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Model\Table\ArticlesTable::validationDefault() - APP/Model\Table\ArticlesTable.php, line 15
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 106
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 403
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 349
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1231
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1132
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 987
+include - APP/Template\Articles\add.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 20:57:33 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::edit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /xboxlfg/articles/edit/1
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-11-28 20:58:04 Warning: Warning (4096): Argument 1 passed to App\Model\Table\ArticlesTable::validationDefault() must be an instance of App\Model\Table\Validator, instance of Cake\Validation\Validator given, called in C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 106 and defined in [C:\wamp\www\xboxlfg\src\Model\Table\ArticlesTable.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Model\Table\ArticlesTable::validationDefault() - APP/Model\Table\ArticlesTable.php, line 15
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 106
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 403
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 349
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1231
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1132
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 987
+include - APP/Template\Articles\edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 21:40:53 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xboxlfg\src\Template\Articles\index.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Articles\index.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-28 21:50:38 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::delete() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'delete',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /xboxlfg/articles/delete/4
+Stack Trace:
+#0 C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\xboxlfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 C:\wamp\www\xboxlfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
