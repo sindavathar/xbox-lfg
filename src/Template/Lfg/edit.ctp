@@ -1,4 +1,4 @@
-<h1>Edit Article</h1>
+<h1>Edit Lfg</h1>
 <?php
     echo $this->Form->create($lfg);
     echo $this->Form->input('title');

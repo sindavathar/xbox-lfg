@@ -306,3 +306,171 @@ Stack Trace:
 #2 {main}
 
 
+2015-11-30 06:26:58 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:27:38 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:27:40 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:28:10 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:29:20 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:29:34 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:30:06 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('webroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-30 06:30:54 Error: [Cake\View\Exception\MissingHelperException] Helper class thiswebrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'thiswebrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /xbox-lfg/lfg
+Stack Trace:
+#0 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('thiswebroot', NULL)
+#1 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('thiswebroot')
+#2 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('thiswebroot')
+#3 C:\wamp\www\xbox-lfg\src\Template\Lfg\index.ctp(8): Cake\View\View->__get('thiswebroot')
+#4 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\wamp\\www\\xbo...')
+#5 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\wamp\\www\\xbo...', Array)
+#6 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\View\View.php(578): Cake\View\View->_render('C:\\wamp\\www\\xbo...')
+#7 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\wamp\www\xbox-lfg\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LfgController))
+#10 C:\wamp\www\xbox-lfg\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+

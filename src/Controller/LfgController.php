@@ -17,18 +17,10 @@ class LfgController extends AppController
 
     public function index()
     {
-        $this->set('lfg', $this->Lfg->find('all'));
-    }
-
-    public function view($id)
-    {
-        $lfg = $this->Lfg->get($id);
-        $this->set(compact('lfg'));
-    }
-
-    public function add()
-    {
-        $lfg = $this->Lfg->newEntity();
+        $this->set('lfg_all', $this->Lfg->find('all'));
+		$this->set('webroot', '');
+		
+		$lfg = $this->Lfg->newEntity();
         if ($this->request->is('post')) {
             $lfg = $this->Lfg->patchEntity($lfg, $this->request->data);
             if ($this->Lfg->save($lfg)) {
@@ -43,6 +35,48 @@ class LfgController extends AppController
         // one category for an lfg
         $categories = $this->Lfg->Categories->find('treeList');
         $this->set(compact('categories'));
+    }
+
+    public function view($id)
+    {
+        $lfg = $this->Lfg->get($id);
+        $this->set(compact('lfg'));
+    }
+
+    public function add()
+    {
+        	
+		$this->autoRender = false;  
+
+	    if($this->RequestHandler->isAjax()) {
+	
+		    echo "<h2>Hello</h2>";
+		    print_r($this->data);
+		    $this->layout = 'ajax';
+		
+		    if(!empty($this->data)) {	
+		    	$fields = array('phone' => 8, 'modified' => false);
+		        $this->User->id = 6;
+		        $this->User->save($fields, false, array('phone'));	
+		    }
+		}	
+			
+			
+        /*$lfg = $this->Lfg->newEntity();
+        if ($this->request->is('post')) {
+            $lfg = $this->Lfg->patchEntity($lfg, $this->request->data);
+            if ($this->Lfg->save($lfg)) {
+                $this->Flash->success(__('Your lfg has been saved.'));
+                return $this->redirect(['action' => 'index']);
+            }
+            $this->Flash->error(__('Unable to add your lfg.'));
+        }
+        $this->set('lfg', $lfg);
+*/
+        // Just added the categories list to be able to choose
+        // one category for an lfg
+        /*$categories = $this->Lfg->Categories->find('treeList');
+        $this->set(compact('categories'));*/
     }
 	
 	public function edit($id = null)
