@@ -2,7 +2,7 @@
 
 <h1>Add Article</h1>
 <?php
-echo $this->Form->create($article);
+echo $this->Form->create($lfg);
 // just added the categories input
 echo $this->Form->input('category_id');
 echo $this->Form->input('title');

@@ -1,12 +1,12 @@
 <?php
-// src/Model/Table/ArticlesTable.php
+// src/Model/Table/LfgTable.php
 
 namespace App\Model\Table;
 
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
-class ArticlesTable extends Table
+class LfgTable extends Table
 {
     public function initialize(array $config)
     {

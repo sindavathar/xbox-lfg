@@ -11,7 +11,7 @@ use Cake\Validation\Validator;
  * Categories Model
  *
  * @property \Cake\ORM\Association\BelongsTo $ParentCategories
- * @property \Cake\ORM\Association\HasMany $Articles
+ * @property \Cake\ORM\Association\HasMany $Lfg
  * @property \Cake\ORM\Association\HasMany $ChildCategories
  */
 class CategoriesTable extends Table
@@ -38,7 +38,7 @@ class CategoriesTable extends Table
             'className' => 'Categories',
             'foreignKey' => 'parent_id'
         ]);
-        $this->hasMany('Articles', [
+        $this->hasMany('Lfg', [
             'foreignKey' => 'category_id'
         ]);
         $this->hasMany('ChildCategories', [
