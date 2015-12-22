@@ -1,3 +1,5 @@
+<?php require_once('common/bootstrap.php'); ?>
+
 <head>
   <title>meteorXboxLfg</title>
 </head>
