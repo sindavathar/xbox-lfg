@@ -1,0 +1,53 @@
+
+
+<head>
+  <title>meteorXboxLfg</title>
+</head>
+
+<body>
+ <div class="container">
+        <div class="header" style="margin-bottom: 30px;">
+            <h3 class="text-muted pull-left">Xbox LFG</h3>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        {{>input}}
+                    </div>
+                    <div class="panel-footer">
+                        {{>messages}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+<template name="input">
+  	<div class="input-group">
+        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here...">
+        <span class="input-group-btn">
+            <button class="btn btn-warning btn-sm" id="btn-chat">Send</button>
+        </span>
+    </div>
+</template>
+
+<template name="messages">
+ 	<ul class="chat">
+        {{#each messages}}
+            <li class="left clearfix"><span class="chat-img pull-left"><b>{{name}}:</b> {{message}}</span></li>
+        {{/each}}
+    </ul>
+</template>
+
+<template name="header">
+	
+</template>
+
+<template name="footer">
+	
+</template>
